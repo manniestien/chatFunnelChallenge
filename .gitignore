@@ -1,0 +1,8 @@
+.env
+cf-evaluation.iml
+.idea
+.config
+key.pem
+cert.pem
+dist-old
+__pycache__
