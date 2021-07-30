@@ -8,7 +8,7 @@ If you aren't able to get everything running or can't fix all the tests, that’
 
 
 
-Step 1: Clone this repository!
+Step 1: Clone this repository
 
 Step 2: Get python 3.7 or above running on your development environment: https://www.python.org
 
@@ -20,11 +20,11 @@ Step 5: Run the tests with: poetry run pytest
 
 Step 6: Notice a bunch of error output. There should be 7 failures, 6 passing tests, and maybe some warnings.
 
-Step 7: Fix the bugs!
+Step 7: Fix the bugs
 
 Step 8: Commit the fixes to your local git repo
 
-Step 9: Zip the repo and send it to us!
+Step 9: Zip the repo and send it to us
 
 Since this is a public repo, please don't make a pull request - we don't want others to see your solutions.
 
