@@ -12,6 +12,7 @@ def hello_world():
 @app.route('/temperature/<city>')
 def temperature(city):
     city_temp = weather.get_temperature_by_city(city)
+    
     return f"The temperature in {city} is {city_temp}"
 
 
