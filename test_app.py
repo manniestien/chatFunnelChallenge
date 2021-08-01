@@ -34,8 +34,8 @@ def test_temperature_pg_caps():
 
 
 @pytest.mark.parametrize("city,expected", [
-    ("provo", 22),
-    ("orem", 26),
+    ("Provo", 22),
+    ("Orem", 26),
     ("lindon", 19),
 ])
 def test_celsius(city, expected):

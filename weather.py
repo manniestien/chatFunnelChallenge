@@ -1,9 +1,4 @@
-
-
-from typing import Iterable
-
-
-def get_temperature_by_city(city: str = "Provo"):
+def get_temperature_by_city(city):
     if city == "Provo":
         temperature = temperature_data.get(city, 72)
     elif city == "Orem":
@@ -15,15 +10,16 @@ def get_temperature_by_city(city: str = "Provo"):
     elif city == "Pleasant Grove":
         temperature = temperature_data.get(city, 80)
     elif city == "Springville":
-        temperature = temperature_data.get(city, "unknown!")      
-    
-    
-    
+        temperature = temperature_data.get(city, "unknown!") 
+    else: temperature = "Please Specify the route"    
+        
     return temperature
-
 
 def convert_fahrenheit_to_celsius(ftemp):
     return round((ftemp - 32) / 1.8)
+
+def changeCity():
+    get_temperature_by_city(city = str.replace('Provo', 'lindon'))
 
 
 temperature_data = {
