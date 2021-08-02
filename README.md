@@ -8,24 +8,26 @@ If you aren't able to get everything running or can't fix all the tests, that’
 
 
 
-Step 1: Clone this repository
+Step 1: Clone this repository : Completed
 
-Step 2: Get python 3.7 or above running on your development environment: https://www.python.org
+Step 2: Get python 3.7 or above running on your development environment: https://www.python.org : Completed
 
-Step 3: Install poetry: https://poetry.eustace.io/
+Step 3: Install poetry: https://poetry.eustace.io/ : Completed
 
-Step 4: On the command line inside the project directory, run: poetry install
+Step 4: On the command line inside the project directory, run: poetry install : Completed
 
-Step 5: Run the tests with: poetry run pytest
+Step 5: Run the tests with: poetry run pytest 
 
 Step 6: Notice a bunch of error output. There should be 7 failures, 6 passing tests, and maybe some warnings.
 
-Step 7: Fix the bugs
+Step 7: Fix the bugs : Completed
 
-Step 8: Commit the fixes to your local git repo
+Step 8: Commit the fixes to your local git repo : Completed
 
-Step 9: Zip the repo and send it to us
+Step 9: Zip the repo and send it to us : Zipped
 
 Since this is a public repo, please don't make a pull request - we don't want others to see your solutions.
 
 The entire project is just a few files, so you are encouraged to browse through and get a feel for it. The project is a python flask application, so you can run it like this: poetry run python app.py
+
+
